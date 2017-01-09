@@ -1,18 +1,12 @@
 <?php
 
-// $output = "Progress";
-//       echo $output;
-
-
 if (isset($_POST["quoteData"]) && $_POST["costTable"]) {
     
     $quoteID = $_POST['quoteID'];
     $total = $_POST['total'];
     
     $dir = "temp/" . $quoteID ;
-    
-
-    
+ 
     if (!file_exists($dir)) {
          mkdir($dir, 0777, true);
     }
@@ -69,8 +63,7 @@ if (isset($_POST["quoteData"]) && $_POST["costTable"]) {
     
     fwrite($htmlFile, $txt);
     fclose($htmlFile);
-    
-    
+       
     
     $exOut;
     exec("xvfb-run -a wkhtmltopdf '$htmlFilePath' '$pdfFilePath'");
@@ -80,7 +73,7 @@ if (isset($_POST["quoteData"]) && $_POST["costTable"]) {
     $summaryFile = fopen($summaryFilePath, "r") or die("Unable to get quote overview. Please try again" . $exOut);
     $summary = fread($summaryFile,filesize($summaryFilePath));
     fclose($summaryFile);
-    
+   
     
     $config = parse_ini_file("config.ini");
     $link = mysql_connect('localhost', $config['dbuser'], $config['dbpassword'])  or die('Could not connect: ' . mysql_error());
@@ -90,8 +83,7 @@ if (isset($_POST["quoteData"]) && $_POST["costTable"]) {
     $result = mysql_query($query) or die('Query failed: ' . mysql_error());
     
     mysql_close($link);    
-    
-    
+
     while (!file_exists($pdfFilePath)){
         sleep(1);
     }
@@ -106,7 +98,6 @@ if (isset($_POST["quoteData"]) && $_POST["costTable"]) {
         echo "Quote Ready!";
     }
    
-    // header("Location: testfile.pdf");
     exit();
 } else {
     echo "Error Level > 9000";
