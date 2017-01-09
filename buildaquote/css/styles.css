@@ -1,0 +1,54 @@
+ol{margin:0;padding:0} .c2{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#efefef;border-top-width:1pt;border-right-width:1pt;border-left-color:#efefef;vertical-align:middle;border-right-color:#efefef;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:175.5pt;border-top-color:#efefef;border-bottom-style:solid}.c8{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#efefef;border-top-width:1pt;border-right-width:1pt;border-left-color:#efefef;vertical-align:middle;border-right-color:#efefef;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:303pt;border-top-color:#efefef;border-bottom-style:solid}.c3{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#efefef;border-top-width:1pt;border-right-width:1pt;border-left-color:#efefef;vertical-align:middle;border-right-color:#efefef;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:169.5pt;border-top-color:#efefef;border-bottom-style:solid}.c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:"Arial";font-style:normal}.c16{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:20pt;font-family:"Arial";font-style:normal}.c14{color:#434343;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:14pt;font-family:"Arial";font-style:normal}.c9{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:16pt;font-family:"Arial";font-style:normal}.c5{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c1{padding-top:16pt;padding-bottom:4pt;line-height:1.0;page-break-after:avoid;text-align:left;height:14pt}.c11{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left}.c7{border-spacing:0;border-collapse:collapse;margin-right:auto}.c22{padding-top:16pt;padding-bottom:4pt;line-height:1.0;text-align:left}.c18{padding-top:18pt;padding-bottom:6pt;line-height:1.0;text-align:right}.c20{padding-top:20pt;padding-bottom:6pt;line-height:1.0;text-align:left}.c19{padding-top:20pt;padding-bottom:6pt;line-height:1.0;text-align:right}.c21{background-color:#ffffff;max-width:648pt;padding:72pt 72pt 72pt 72pt}.c4{orphans:2;widows:2}.c6{font-size:10pt;font-weight:700}.c10{text-align:center}.c13{font-weight:700}.c17{page-break-after:avoid}.c12{height:11pt}.c15{height:0pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{font-family:"Arial";}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 2em;
+  letter-spacing: .1em;
+}
+
+ h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: .4em 0;
+}
+ p {
+  line-height: 1.6;
+}
+
+
+
+table {
+    font-family: arial, sans-serif;
+   
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+ border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+     font-size: 1.0rem;
+     font-weight: 500;
+}
+
+th > p {
+      display: inline;
+      font-weight: 600;
+      
+}
+
+tr:last-child > th {
+font-weight: 700;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
